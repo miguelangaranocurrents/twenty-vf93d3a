@@ -69,7 +69,7 @@ export const TextInput = ({
   onClickOutside,
   onChange,
   copyButton = true,
-  shouldTrim = true,
+  shouldTrim = false,
   disabled,
   className,
 }: TextInputProps) => {
